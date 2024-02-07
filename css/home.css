@@ -1,0 +1,179 @@
+/* form css */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #EFEFEF;
+}
+
+.form-container {
+  margin: 50px auto;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.form-label {
+  width: 25%;
+  text-align: right;
+  padding-right: 5px;
+  font-weight: bold;
+  color: #000000; 
+}
+
+.form-input {
+  width: 70%; 
+  padding: 8px 10px;
+  border: 1px solid #B3AEAB;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-input:focus {
+  border-color: #231F20;
+}
+
+.primary-color {
+  color: #FF5001;
+}
+
+.text-muted {
+  color: #646368;
+}
+
+.form-cal {
+  width: 20%; 
+  padding: 8px 10px;
+  border: 1px solid #B3AEAB;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-cal:focus {
+  border-color: #231F20;
+}
+
+.error {
+  border-color: red;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .form-label {
+    width: 70%;
+  }
+
+  .form-input {
+    width: 70%;
+  }
+}
+
+
+h1 {
+  text-align: center;
+  color: #231F20;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+.select-menu {
+  appearance: none; 
+  background-color: #fff;
+  border: 1px solid #B3AEAB;
+  color: #646368;
+  padding: 8px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+#stdt_name,#father_name,#father_occ,#mother_occ,#mother_name,#previous_school_name,#previous_add{
+  width: 50%; 
+}
+
+#state, #nationality,#mother_tong,#relg,#caste,#subcaste {
+  width: 20%; 
+}
+
+#application_number,#class,#section,#prev_class{
+  width: 125px; 
+}
+
+#address,#prev_add {
+  height: 50px;
+  width:  50%;
+}
+
+#pincode,#phone_number,#aadhaar {
+  width: 25%; 
+}
+
+/* forn css end */
+
+
+/* button1 */
+.button1 {
+  background-color: #d1d9e9;
+  border: 0 solid #e2e8f0;
+  border-radius : 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor:  pointer;
+  display: inline-block;
+  font-family: "Basier circle",system-ui,"Segoe UI","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button1:hover{
+  background-color: #1e293b;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .button1 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+
+
+.button2 {
+  background-color: #FF5001; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* button end*/
+
+/* search  */
+
+
+/* search end */
