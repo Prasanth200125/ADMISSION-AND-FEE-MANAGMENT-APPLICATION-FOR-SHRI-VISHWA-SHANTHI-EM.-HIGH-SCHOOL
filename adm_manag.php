@@ -16,6 +16,11 @@
             </div>
 
             <div class="form-group">
+            <label for="batch_yr" class="form-label">Batch Year:</label>
+            <input class="form-input" type="tel" id="batch_yr" name="batch_yr" placeholder="2000" pattern="[0-9]{4}" required>
+            </div>
+
+            <div class="form-group">
             <label for="stdt_name" class="form-label">Student Full Name:</label >
             <input class="form-input" type="text" id="stdt_name" name="stdt_name" required>
             </div>
