@@ -85,15 +85,15 @@
             <label for="class" class="form-label">Class:</label>
             <select class="select-menu" id="class" name="class" required>
                 <option hidden>Select Class</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
                 <option value="10">10</option>
 
                 </select>
@@ -181,14 +181,14 @@
             </div>
 
             <div class="form-group">
-            <label for="hostel_facility" class="form-label">Hostel Facility:</label>
-            <input type="checkbox" id="hostel_facility" name="hostel_facility">
+            <label for="hostel" class="form-label">Hostel Facility:</label>
+            <input type="checkbox" id="hostel" name="hostel">
             </div>
 
 
             <div class="form-group">
-            <label for="bus_facility" class="form-label">Bus Facility:</label>
-            <input type="checkbox" id="bus_facility" name="bus_facility">
+            <label for="bus" class="form-label">Bus Facility:</label>
+            <input type="checkbox" id="bus" name="bus">
             </div>
 
             

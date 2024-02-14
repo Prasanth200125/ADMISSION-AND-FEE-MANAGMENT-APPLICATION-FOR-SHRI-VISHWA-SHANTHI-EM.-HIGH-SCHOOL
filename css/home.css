@@ -100,11 +100,11 @@ h1 {
   width: 50%; 
 }
 
-#state, #nationality,#mother_tong,#relg,#caste,#subcaste,#batch_yr {
+#state, #nationality,#mother_tong,#relg,#caste,#subcaste {
   width: 20%; 
 }
 
-#application_number,#class,#section,#prev_class{
+#app_no,#class,#section,#prev_class,#batch_yr{
   width: 125px; 
 }
 
